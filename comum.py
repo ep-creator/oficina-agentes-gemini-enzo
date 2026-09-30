@@ -16,7 +16,7 @@ RAIZ = Path(__file__).resolve().parent
 load_dotenv(RAIZ / ".env")
 
 # Modelo padrão da oficina (pode ser trocado no .env)
-MODELO = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
+MODELO = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 
 
 def criar_cliente():
